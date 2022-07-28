@@ -70,7 +70,7 @@ My thesis "How does legalising cannabis influence the purchasing choices of cann
 
 # Work Experience
 
-Where I can (with permission) I discuss the data analysis work I've done for clients (note due to client confidentiality I can not directly show any analysis as I can with my own persoal data projects or PhD thesis).
+Where I can (with permission) I discuss the data analysis work I've done for clients (note due to client confidentiality I can not directly show any analysis as I can with my own personal data projects or PhD thesis).
 
 ## Creativity Survey Analysis
 
