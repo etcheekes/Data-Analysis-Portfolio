@@ -25,7 +25,8 @@ Personal data projects conducted on publically available datasets.
 
 ## Store Analysis
 
-**Analysis:** [store_analysis](https://github.com/etceek/Data-Analysis-Portfolio/blob/main/store_analysis.md)<br/> 
+**Analysis:** [Store Analysis](https://github.com/etceek/Data-Analysis-Portfolio/blob/main/store_analysis.md)<br/> 
+(The style of this presented analysis represents what would be sent to a stakeholder or client and not someone with data analysis or coding expertise, hence, it does not show my actual coding)<br/> 
 **Description:** The dataset contains information on a store's sales, products, and customer segments over several years. In total, the data contains 9994 observations spread across 21 variables. The project involves the following steps: mild data cleaning and preprocessing, EDA (exploratory data analysis) which includes univariate, bivariate, and multivariate analysis, analysing how sales and profit differ across customer segments, product types, location, and more.<br/> 
 **Skills:** data analysis, descriptive statistics, data visualisation, data cleaning.<br/>
 **Technology:** R, RStudio, Rmarkdown, Tidyverse, ggplot2.<br/>
@@ -33,7 +34,8 @@ Personal data projects conducted on publically available datasets.
 
 ## Video Game Sales Analysis
 
-**Analysis:** [videogame analysis](https://github.com/etceek/Data-Analysis-Portfolio/blob/main/vg_sales_analysis.md)<br/>
+**Analysis:** [Videogame Sales Analysis](https://github.com/etceek/Data-Analysis-Portfolio/blob/main/vg_sales_analysis.md)<br/> 
+(The style of this presented analysis includes my code)<br/>
 **Description:** The dataset analysed contains information on video game sales between 1980 and 2016. In total, the dataset contains 16598 observations across 11 variables. Specifically, it offers data on videogame name, publisher, genre, console released on, year released, and sales. The project involves the following steps: data cleaning and preprocessing, transformation of data into new variables, EDA (exploratory data analysis) which includes univariate, bivariate, and multivariate analysis.<br/> 
 **Skills:** data analysis, descriptive statistics, data visualisation, data cleaning.<br/>
 **Technology:** R, RStudio, Rmarkdown, Tidyverse, ggplot2.<br/>
