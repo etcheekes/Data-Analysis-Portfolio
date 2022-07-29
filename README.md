@@ -6,6 +6,8 @@ Hi, I'm Erik! I have a social science background and hold a BSc econ in Criminol
 
 This is a repository to showcase my data analyst/data science skills through sharing and discussing examples of my work or projects.
 
+Contact me at echeekes@gmail.com.
+
 ## Table of contents
 
 - [About me](#about-me)
