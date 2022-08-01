@@ -168,6 +168,19 @@ it gives no direct insight into the store’s operations.
 Overall, the store generated $286,397 (US currency) in profit. The table
 below statistically summarises the profit variable.
 
+| Statistic  |   Profit |
+|:-----------|---------:|
+| Count      |  9994.00 |
+| Mean       |    28.66 |
+| Median     |     8.67 |
+| Mode       |     0.00 |
+| Std        |   234.26 |
+| IQR        |    27.64 |
+| Quartile 1 |     1.73 |
+| Quartile 3 |    29.36 |
+| Min        | -6599.98 |
+| Max        |  8399.98 |
+
 -   As the median is far lower than the mean, this indicates that there
     are some transactions with relatively extremely high profit values
     that are raising the mean (in statistic terms, there is a positive
@@ -206,6 +219,19 @@ account for roughly 2% of all transactions.
 In total the store made $2,297,201 in sales. The below table presents
 summary statistics for the sales variable.
 
+| Statistic  |    Sales |
+|:-----------|---------:|
+| Count      |  9994.00 |
+| Mean       |   229.86 |
+| Median     |    54.49 |
+| Mode       |    12.96 |
+| Std        |   623.25 |
+| IQR        |   192.66 |
+| Quartile 1 |    17.28 |
+| Quartile 3 |   209.94 |
+| Min        |     0.44 |
+| Max        | 22638.48 |
+
 -   Like profit, though more extreme, the mean is far higher than the
     median indicating transactions with very high sales are affecting
     the mean. Hence, the median is more appropriate measure of average
@@ -232,6 +258,19 @@ of all transactions.
 ### 3.1.3 Quantity
 
 The below table presents summary statistics for the quantity variable.
+
+| Statistic  | Quantity |
+|:-----------|---------:|
+| Count      |  9994.00 |
+| Mean       |     3.79 |
+| Median     |     3.00 |
+| Mode       |     3.00 |
+| Std        |     2.23 |
+| IQR        |     3.00 |
+| Quartile 1 |     2.00 |
+| Quartile 3 |     5.00 |
+| Min        |     1.00 |
+| Max        |    14.00 |
 
 -   The averages for quantity are relatively similar as the median and
     mode are identical while the mean is slightly higher.
@@ -289,6 +328,13 @@ that used standard class.
 
 The table below shows the specific percentages for each shipment option.
 
+| Ship Mode      | Percentage |
+|:---------------|-----------:|
+| Standard Class |      59.72 |
+| Second Class   |      19.46 |
+| First Class    |      15.39 |
+| Same Day       |       5.43 |
+
 ### 3.3.2 Customers
 
 There are three variables relating to customers, these are, customer ID,
@@ -299,8 +345,35 @@ There are 793 unique customer IDs which means (when considering the
 total dataset contains 9994 transactions), many repeat customers exist.
 The below table identifies customers who made the most transactions.
 
+| Customer ID | Transactions |
+|:------------|-------------:|
+| WB-21850    |           37 |
+| JL-15835    |           34 |
+| MA-17560    |           34 |
+| PP-18955    |           34 |
+| CK-12205    |           32 |
+| EH-13765    |           32 |
+| JD-15895    |           32 |
+| SV-20365    |           32 |
+| AP-10915    |           31 |
+| EP-13915    |           31 |
+| ZC-21910    |           31 |
+
 The number of transactions for each customer can also be summarized as
 quantitative data, which the table below shows.
+
+| Statistic  | Transactions |
+|:-----------|-------------:|
+| Count      |       793.00 |
+| Mean       |        12.60 |
+| Median     |        12.00 |
+| Mode       |        10.00 |
+| Std        |         6.24 |
+| IQR        |         8.00 |
+| Quartile 1 |         8.00 |
+| Quartile 3 |        16.00 |
+| Min        |         1.00 |
+| Max        |        37.00 |
 
 -   The three averages (mean, median, and mode) are relatively similar
     which indicates a normal distribution (i.e., a bell shape).
@@ -333,6 +406,12 @@ each customer segment.
 
 The below table give specific percentages for each customer segment.
 
+| Segment     | Percentage |
+|:------------|-----------:|
+| Consumer    |      51.94 |
+| Corporate   |      30.22 |
+| Home Office |      17.84 |
+
 ### 3.3.3 Types of Product
 
 In total, the store’s products split into three broad categories of
@@ -351,6 +430,12 @@ the amount of transactions for each product category.
 The below table gives specific percentages of transactions for each
 product category.
 
+| Statistic       | Percentage |
+|:----------------|-----------:|
+| Office Supplies |      60.30 |
+| Furniture       |      21.22 |
+| Technology      |      18.48 |
+
 Additionally, the product categories split into 17 smaller
 subcategories. The graph below visualises the amount of transactions for
 each subcategory.
@@ -365,10 +450,36 @@ each subcategory.
 The table below offers exact numbers and percentages for each
 subcategory.
 
+| Subcategory | Count | Percentage |
+|:------------|------:|-----------:|
+| Binders     |  1523 |      15.24 |
+| Paper       |  1370 |      13.71 |
+| Furnishings |   957 |       9.58 |
+| Phones      |   889 |       8.90 |
+| Storage     |   846 |       8.47 |
+| Art         |   796 |       7.96 |
+| Accessories |   775 |       7.75 |
+| Chairs      |   617 |       6.17 |
+| Appliances  |   466 |       4.66 |
+| Labels      |   364 |       3.64 |
+| Tables      |   319 |       3.19 |
+| Envelopes   |   254 |       2.54 |
+| Bookcases   |   228 |       2.28 |
+| Fasteners   |   217 |       2.17 |
+| Supplies    |   190 |       1.90 |
+| Machines    |   115 |       1.15 |
+| Copiers     |    68 |       0.68 |
+
 The store sells 1850 uniquely named items. However, all items
 individually contribute a small number of transactions. For example,
 only three products contribute over 0.20% of all transactions in the
 dataset.
+
+| Product.Name      | Count | Percentage |
+|:------------------|------:|-----------:|
+| Staple envelope   |    48 |       0.48 |
+| Easy-staple paper |    46 |       0.46 |
+| Staples           |    46 |       0.46 |
 
 Consequently, later analysis regarding products will only consider them
 at the category and subcategory levels which can reveal meaningful
@@ -383,8 +494,34 @@ the latter was removed from the dataset).
 There are 631 unique postal codes. The table below shows the top 10
 postal codes that contributed the most transactions.
 
+| Postal Code | Transactions |
+|:------------|-------------:|
+| 10035       |          263 |
+| 10024       |          230 |
+| 10009       |          229 |
+| 94122       |          203 |
+| 10011       |          193 |
+| 94110       |          166 |
+| 98105       |          165 |
+| 19134       |          160 |
+| 90049       |          151 |
+| 98103       |          151 |
+
 The number of transactions for each postal code can be summarised as
 quantitative data as the table below shows.
+
+| Statistic  | Transactions |
+|:-----------|-------------:|
+| Count      |       631.00 |
+| Mean       |        15.84 |
+| Median     |         6.00 |
+| Mode       |         1.00 |
+| Std        |        30.94 |
+| IQR        |        11.00 |
+| Quartile 1 |         3.00 |
+| Quartile 3 |        14.00 |
+| Min        |         1.00 |
+| Max        |       263.00 |
 
 -   The mean being far higher than the median indicates certain postal
     codes contributed a relatively high amount of transactions.
@@ -404,8 +541,35 @@ above.
 There are 531 unique cities. The table below shows the top 10 cities
 that made the most transactions.
 
+| City          | Count |
+|:--------------|------:|
+| New York City |   915 |
+| Los Angeles   |   747 |
+| Philadelphia  |   537 |
+| San Francisco |   510 |
+| Seattle       |   428 |
+| Houston       |   377 |
+| Chicago       |   314 |
+| Columbus      |   222 |
+| San Diego     |   170 |
+| Springfield   |   163 |
+| Dallas        |   157 |
+
 The number of transactions for each city can also be summarised as
 quantitative data as the table below shows.
+
+| Statistic  | Transactions |
+|:-----------|-------------:|
+| Count      |       531.00 |
+| Mean       |        18.82 |
+| Median     |         5.00 |
+| Mode       |         1.00 |
+| Std        |        68.45 |
+| IQR        |         9.50 |
+| Quartile 1 |         2.50 |
+| Quartile 3 |        12.00 |
+| Min        |         1.00 |
+| Max        |       915.00 |
 
 -   A clear positive skew is present due to the mean being higher than
     the median which indicates certain cities contributed a
@@ -436,6 +600,13 @@ transactions in each.
 The table below identifies the specific percentages of transactions that
 come from each region.
 
+| Region  | Percentage |
+|:--------|-----------:|
+| West    |      32.05 |
+| East    |      28.50 |
+| Central |      23.24 |
+| South   |      16.21 |
+
 Information on each state is also available, however, this variable is
 only visualised below as the resultant table would be cumbersome to use.
 
@@ -464,6 +635,21 @@ them by quantity of transactions.
 
 The table below specifies the percentage of transactions with each
 discount rate.
+
+| Discount | Percentage |
+|:---------|-----------:|
+| 0        |      48.01 |
+| 0.2      |      36.59 |
+| 0.7      |       4.18 |
+| 0.8      |       3.00 |
+| 0.3      |       2.27 |
+| 0.4      |       2.06 |
+| 0.6      |       1.38 |
+| 0.1      |       0.94 |
+| 0.5      |       0.66 |
+| 0.15     |       0.52 |
+| 0.32     |       0.27 |
+| 0.45     |       0.11 |
 
 # 4 Bivariate Analysis
 
@@ -582,7 +768,43 @@ segment.
 The below table shows the 15 most profitable customers and their number
 of transactions.
 
+| Customer ID | Transactions | Total Profit |
+|:------------|-------------:|-------------:|
+| TC-20980    |           12 |      8981.32 |
+| RB-19360    |           18 |      6976.10 |
+| SC-20095    |           22 |      5757.41 |
+| HL-15040    |           11 |      5622.43 |
+| AB-10105    |           20 |      5444.81 |
+| TA-21385    |           10 |      4703.79 |
+| CM-12385    |           10 |      3899.89 |
+| KD-16495    |           28 |      3038.63 |
+| AR-10540    |            9 |      2884.62 |
+| DR-12940    |           13 |      2869.08 |
+| TB-21400    |           17 |      2798.37 |
+| NM-18445    |           14 |      2751.68 |
+| SE-20110    |           19 |      2650.68 |
+| BS-11365    |            9 |      2616.06 |
+| HM-14860    |           20 |      2437.98 |
+
 While the table below shows the top 15 customers for sales.
+
+| Customer ID | Transactions | Total Sales |
+|:------------|-------------:|------------:|
+| SM-20320    |           15 |    25043.05 |
+| TC-20980    |           12 |    19052.22 |
+| RB-19360    |           18 |    15117.34 |
+| TA-21385    |           10 |    14595.62 |
+| AB-10105    |           20 |    14473.57 |
+| KL-16645    |           29 |    14175.23 |
+| SC-20095    |           22 |    14142.33 |
+| HL-15040    |           11 |    12873.30 |
+| SE-20110    |           19 |    12209.44 |
+| CC-12370    |           11 |    12129.07 |
+| TS-21370    |           15 |    11891.75 |
+| GT-14710    |           29 |    11820.12 |
+| BM-11140    |           16 |    11789.63 |
+| SV-20365    |           32 |    11470.95 |
+| CJ-12010    |           20 |    11164.97 |
 
 Interestingly, the most profitable customers are not necessarily the
 ones that generated the highest sales.
@@ -989,6 +1211,13 @@ appear to buy relatively more phones than the other segments.
 The below table provides information on the median and total profits
 from each shipment option.
 
+| Ship Mode      | Transactions | Median | Total Profit |
+|:---------------|-------------:|-------:|-------------:|
+| Standard Class |         5968 |   8.30 |    164088.79 |
+| Second Class   |         1945 |   9.43 |     57446.64 |
+| First Class    |         1538 |   8.78 |     48969.84 |
+| Same Day       |          543 |   8.03 |     15891.76 |
+
 -   The median indicates little difference in average profitability for
     transactions using different shipment options.
 -   Clear differences in total profit exist, for example, roughly 57% of
@@ -997,6 +1226,13 @@ from each shipment option.
     standard class.
 
 An identical table is constructed for total sales.
+
+| Ship Mode      | Transactions | Median | Total Sales |
+|:---------------|-------------:|-------:|------------:|
+| Standard Class |         5968 |  52.77 |   1358215.7 |
+| Second Class   |         1945 |  57.90 |    459193.6 |
+| First Class    |         1538 |  54.94 |    351428.4 |
+| Same Day       |          543 |  55.18 |    128363.1 |
 
 -   Like profit, there is little average difference in sales for
     shipment options.
