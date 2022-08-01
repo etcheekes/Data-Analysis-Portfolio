@@ -28,7 +28,6 @@ Personal data projects conducted on publically available datasets.
 ## Store Analysis
 
 **Analysis:** [Store Analysis](https://github.com/etceek/Data-Analysis-Portfolio/blob/main/store_analysis.md)<br/> 
-Note!!! there is currently an issue with displaying tables for this analysis on github, I will rectify this as soon as I can <br/>
 (The style of this presented analysis represents what would be sent to a stakeholder or client and not someone with data analysis or coding expertise, hence, it does not show my actual coding)<br/> 
 **Description:** The dataset contains information on a store's sales, products, and customer segments over several years. In total, the data contains 9994 observations spread across 21 variables. The project involves the following steps: mild data cleaning and preprocessing, EDA (exploratory data analysis) which includes univariate, bivariate, and multivariate analysis, analysing how sales and profit differ across customer segments, product types, location, and more.<br/> 
 **Skills:** data analysis, descriptive statistics, data visualisation, data cleaning.<br/>
